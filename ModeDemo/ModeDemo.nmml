@@ -71,14 +71,14 @@
 		<music path="mode.mp3" id="Mode" />
 	</assets>
 	
-	<assets path="assets/data" include="*.ttf" type="font" />
-	<assets path="assets" include="*.fgr" type="text" />
-	<assets path="assets" include="*.csv" type="text" />
-	<assets path="assets" include="*.txt" type="text" />
-	<assets path="assets" include="*.png" type="image" />
-	<assets path="assets/data" include="*.png" type="image" />
-	<assets path="assets/data/vcr" include="*.png" type="image" />
-	<assets path="assets/data/vis" include="*.png" type="image" />
+	<assets path="Assets/data" rename="assets/data" include="*.ttf" type="font" />
+	<assets path="Assets" rename="assets" include="*.fgr" type="text" />
+	<assets path="Assets" rename="assets" include="*.csv" type="text" />
+	<assets path="Assets" rename="assets" include="*.txt" type="text" />
+	<assets path="Assets" rename="assets" include="*.png" type="image" />
+	<assets path="Assets/data" rename="assets/data" include="*.png" type="image" />
+	<assets path="Assets/data/vcr" rename="assets/data/vcr" include="*.png" type="image" />
+	<assets path="Assets/data/vis" rename="assets/data/vis" include="*.png" type="image" />
 	
 	<!--<icon name="Assets/nme.svg" /> -->
 	
